@@ -1,7 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     border: none;
+}
+
+body {
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    background: pink;
+}
+
+/* Start Window */
+.select-game {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.start-btn {
+    border: none;
+    background: green;
+
 }
